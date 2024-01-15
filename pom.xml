@@ -38,10 +38,9 @@
     <properties>
         <scala.compat.version>3</scala.compat.version>
         <scala.version>3.3.1</scala.version>
-        <!-- <scala.lib.version>${scala.version}.10</scala.lib.version> -->
+        <zio.version>2.0.21</zio.version>
+<!--        <tika.version>3.0.0-BETA</tika.version> -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<akka.version>2.5.32</akka.version>
-	<pekko.version>1.0.0</pekko.version>
         <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
     </properties>
 
@@ -113,6 +112,31 @@
             <groupId>org.scala-lang.modules</groupId>
             <artifactId>scala-xml_${scala.compat.version}</artifactId>
             <version>2.2.0</version>
+        </dependency>
+<!--        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId>
+            <version>${tika.version}</version>
+        </dependency> -->
+        <dependency>
+            <groupId>dev.zio</groupId>
+            <artifactId>zio_${scala.compat.version}</artifactId>
+            <version>${zio.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang.modules</groupId>
+            <artifactId>scala-xml_${scala.compat.version}</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.pureconfig</groupId>
+            <artifactId>pureconfig-core_${scala.compat.version}</artifactId>
+            <version>0.17.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe</groupId>
+            <artifactId>config</artifactId>
+            <version>1.4.3</version>
         </dependency>
     </dependencies>
 
