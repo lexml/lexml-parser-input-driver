@@ -3,7 +3,7 @@
 
     <groupId>br.gov.lexml.parser</groupId>
     <artifactId>lexml-parser-input-driver</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>LexML Parser input driver API</name>
     <description>API for implementing input drivers for the LexML Parser.</description>
@@ -48,7 +48,7 @@
         <url>https://github.com/lexml/lexml-parser-input-driver</url>
         <developerConnection>scm:git:https://github.com/lexml/lexml-parser-input-driver.git</developerConnection>
         <connection>scm:git:https://github.com/lexml/lexml-parser-input-driver.git</connection>
-        <tag>HEAD</tag>
+        <tag>lexml-parser-input-driver-1.0.0</tag>
     </scm>
 
     <build>
